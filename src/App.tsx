@@ -3,13 +3,8 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import useLongPress from "./Hooks/useLongPress";
 import List from "./Components/List";
-
-interface Sub {
-  nick: string;
-  subMonths: number;
-  avatar: string;
-  description?: string;
-}
+import Form from "./Form";
+import { Sub } from "./interfaces/types";
 
 const INITIAL_STATE = [
   {
@@ -39,7 +34,11 @@ function App() {
     setSubs(INITIAL_STATE);
   }, []);
 
-  return <List subs={subs} />;
+  return (
+    <>
+      <List subs={subs} /> <Form />
+    </>
+  );
 }
 
 export default App;

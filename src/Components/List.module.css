@@ -1,0 +1,23 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body ul,
+.body h4 {
+  margin: 0;
+  padding: 0;
+}
+.body img {
+  border-radius: 200px;
+  height: auto;
+  width: 50px;
+}
+.body ul li {
+  border-radius: 4px;
+  border: 1 px solid #eee;
+  list-style: none;
+  margin-bottom: 16px;
+  max-width: 320px;
+  padding: 8px 32px;
+}

@@ -1,0 +1,15 @@
+.bodyForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyForm input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 4px 6px;
+  margin: 0 4px;
+}
+
+.bodyForm button {
+  margin-top: 10px;
+}
